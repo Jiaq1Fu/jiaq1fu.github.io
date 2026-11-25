@@ -68,8 +68,8 @@ img { max-width: 100%; }
 }
 .intro-title { grid-area: title; }
 .intro-copy { grid-area: copy; }
-.institution { gap: 12px; }
-.institution img { width: 49px; height: 49px; border-radius: 50%; border: 1px solid var(--line); object-fit: cover; object-position: center 35%; }
+.institution { gap: 16px; }
+.institution img { width: clamp(84px, 8vw, 100px); height: auto; aspect-ratio: 1; flex: none; border-radius: 50%; border: 1px solid var(--line); object-fit: cover; object-position: center 35%; }
 .institution span { display: block; font-size: 14px; font-weight: 620; letter-spacing: -.01em; }
 .institution span + span { color: var(--muted); font-size: 12px; font-weight: 450; }
 i { color: var(--muted); font-style: normal; padding-inline: 2px; }
