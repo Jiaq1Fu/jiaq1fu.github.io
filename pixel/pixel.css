@@ -117,7 +117,7 @@ h1 span { color: var(--gold); }
 .vents { width: 56px; height: 4px; background: repeating-linear-gradient(100deg,var(--bezel) 0 4px,transparent 4px 7px); }
 .profile { display: grid; grid-template-columns: 214px minmax(0,1fr); gap: clamp(24px,4vw,64px); padding: clamp(30px,4.5vw,60px) 0; border-bottom: 1px solid var(--line); }
 .sheet { border-left: 2px solid var(--accent-line); padding-left: 19px; display: flex; flex-direction: column; align-items: flex-start; }
-.portrait { display: block; width: 75px; height: 82px; object-fit: cover; border: 2px solid var(--border); box-shadow: 3px 3px var(--shadow); }
+.portrait { display: block; width: 75px; height: 75px; object-fit: cover; border: 2px solid var(--border); box-shadow: 3px 3px var(--shadow); }
 .contacts { padding: 0; display: grid; gap: 5px; list-style: none; margin-top: 16px; }
 .contacts li { display: flex; align-items: center; gap: 7px; font-size: 14px; }
 .contacts .icon { width: 16px; height: 16px; color: var(--mint); }
